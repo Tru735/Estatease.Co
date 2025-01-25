@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estatease.Co</title>
+    <link rel="stylesheet" href="styleWideScreen.css" />
+    <link rel="stylesheet" href="styleMedScreen.css" />
+    <link rel="stylesheet" href="styleSmallScreen.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header class="header responsive-header">
+      <div class="title responsive-title">
+        <a class="estate responsive-estate">Estatease.Co</a>
+        <a class="tagLine responsive-tagline">Redefining Luxury Living Online</a>
+      </div>
+      <nav class="clicks responsive-nav">
+        <li class="listClicks Home">Home</li>
+        <li class="listClicks Service">Service</li>
+        <li class="listClicks Rent">Rent</li>
+        <li class="listClicks Buy">Buy</li>
+        <li class="listClicks Sell">Sell</li>
+        <li class="listClicks Login">
+          <img src="media/userIcon.svg" alt="Login" />
+        </li>
+      </nav>
+      <nav class="menuClass">
+        <button class="burgerMenu"><img class="menuImg" src="media/menu-burger-removebg-preview.png" alt="" width="40px" height="40px"></button>
+
+        <div class="dropdownMenu">
+          <li class="dropdownList">Home</li>
+          <li class="dropdownList">Service</li>
+          <li class="dropdownList">Rent</li>
+          <li class="dropdownList">Buy</li>
+          <li class="dropdownList">Sell</li>
+          <li class="dropdownList">Login</li>
+          <li><button class="closeDropdown">X</button></li>
+        </div>
+      </nav>
+    </header>
+    <section class="search" id="initialSearch">
+      <div class="searchCont">
+        <select class="propertyType" id="propertyType" name="propertyType" required>
+          <option value="">Select Property Type</option>
+          <option value="apartment">Flats</option>
+          <option value="house">Duplex</option>
+          <option value="villa">Villa</option>
+          <option value="commercial">Commercial Property</option>
+        </select>
+        <input 
+        type="text"
+        class="searchText"
+        id = "searchText"
+        placeholder=" Search Places in 'Noida' ">
+      <button id="searchButton" class="searchButton" >Search</button>
+      </div>
+    </section>
+    <section class="properties">
+      <div class="propertiesHeading headingPage">
+        <h1>Popular Properties in Mumbai</h1>
+        <p>See More>>></p>
+      </div>
+      <div class="propertiesPost">
+        <section class="post">
+          <div class="postPhoto">
+            <img
+              class="prop"
+              src="media/Project-Photo-1.jpg"
+              alt="property image"
+            />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Puri SeleQt</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>Puri Creators</p>
+                <p>Andheri East</p>
+                <p>2,3,4 BHK Flats</p>
+                <p>₹3.9Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+        <section class="post">
+          <div class="postPhoto">
+            <img class="prop" src="media/Project-Photo-1-Borivali.jpg" alt="" />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Rejuve 360</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>L&T Reality</p>
+                <p>Mulund West</p>
+                <p>5,6 BHK Villas</p>
+                <p>₹6.7Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+        <section class="post">
+          <div class="postPhoto">
+            <img class="prop" src="media/Project-Photo-12.jpg" alt="" />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Forest Hills</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>Prestige Group</p>
+                <p>Andheri East</p>
+                <p>3,4 BHK Flats</p>
+                <p>₹2.2Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+        <section class="post">
+          <div class="postPhoto">
+            <img class="prop" src="media/Project-Photo-5.jpg" alt="" />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Lodha Divino</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>Lodha</p>
+                <p>Matunga</p>
+                <p>3,4,5 BHK Villas</p>
+                <p>₹3.98Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+        <section class="post">
+          <div class="postPhoto">
+            <img class="prop" src="media/projectshowcase.jpg" alt="" />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Godrej Horizon</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>Godrej Properties</p>
+                <p>Wadala</p>
+                <p>2,3,4 BHK Flats</p>
+                <p>₹3.1Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+        <section class="post">
+          <div class="postPhoto">
+            <img class="prop" src="media/projectshowcase2.jpg" alt="" />
+          </div>
+          <span class="postText">
+            <h1 class="postText headingText">Piramal Mahalaxmi</h1>
+            <span class="contentBox">
+              <span class="content">
+                <p>Piramal Reality</p>
+                <p>Mahalaxmi</p>
+                <p>2,3,4 BHK Flats</p>
+                <p>₹4.81Crs onwards</p>
+              </span>
+              <span class="buttonContact">
+                <button class="postButton brochure">Brochure</button>
+                <button class="postButton contactUs">Contact</button>
+              </span>
+            </span>
+          </span>
+        </section>
+      </div>
+    </section>
+    <section class="services">
+      <div class="servicesHeading">
+        <h1>Our Featured Agents</h1>
+        <p>See More>>></p>
+      </div>
+      <div class="servicesCards">
+        <span class="servicesCard card1">
+          <section class="top">
+            <div class="topText">
+              <h1>Deepak Sharma</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker1.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>
+                Modak <br />Estate <br />
+                Consultant
+              </h1>
+              <p>35 Properties for Sale</p>
+              <p>11 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 1997</p>
+              <p>Buyers <br />served 1200+</p>
+            </div>
+          </section>
+        </span>
+        <span class="servicesCard card2">
+          <section class="top">
+            <div class="topText">
+              <h1>Manoj Desai</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker2.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>DHM <br />Estate</h1>
+              <p>48 Properties for Sale</p>
+              <p>19 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 1992</p>
+              <p>Buyers <br />served 1800+</p>
+            </div>
+          </section>
+        </span>
+        <span class="servicesCard card3">
+          <section class="top">
+            <div class="topText">
+              <h1>Shalin Disadia</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker3.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>Labdhi <br />Estates</h1>
+              <p>207 Properties for Sale</p>
+              <p>48 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 1973</p>
+              <p>Buyers <br />served 3200+</p>
+            </div>
+          </section>
+        </span>
+        <span class="servicesCard card4">
+          <section class="top">
+            <div class="topText">
+              <h1>Ashok Yadav</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker4.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>Green <br />Enterprising</h1>
+              <p>60 Properties for Sale</p>
+              <p>14 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 2001</p>
+              <p>Buyers <br />served 2000+</p>
+            </div>
+          </section>
+        </span>
+        <span class="servicesCard card5">
+          <section class="top">
+            <div class="topText">
+              <h1>Mukesh Hemdev</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker5.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>Estates <br />Hub</h1>
+              <p>21 Properties for Sale</p>
+              <p>11 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 2008</p>
+              <p>Buyers <br />served 900+</p>
+            </div>
+          </section>
+        </span>
+        <span class="servicesCard card6">
+          <section class="top">
+            <div class="topText">
+              <h1>Arun Jain</h1>
+              <p>E.Co verified</p>
+            </div>
+            <div class="topImg">
+              <img src="media/broker6.jpg" alt="" width="90vw" />
+            </div>
+          </section>
+          <section class="med">
+            <div class="medHeading">
+              <h1>
+                Bhavya Bhairav <br />Real <br />
+                Estate
+              </h1>
+              <p>24 Properties for Sale</p>
+              <p>19 Properties for Rent</p>
+            </div>
+            <div class="medDisc">
+              <p>Operating <br />since 1994</p>
+              <p>Buyers <br />served 1200+</p>
+            </div>
+          </section>
+        </span>
+      </div>
+    </section>
+    <section class="agents">
+      <div class="agentsHeading">
+        <h1>Our Services</h1>
+        <p>See More>>></p>
+      </div>
+      <div class="agentsCards">
+        <span class="agentsCard renovation">
+          <h1>Renovations</h1>
+          <p>Estatease.Co offers premium property renovation services, enhancing homes and offices with modern designs, quality materials, and expert craftsmanship for a seamless transformation. Trust us to elevate your spaces.</p>
+        </span>
+        <span class="agentsCard">
+          <h1>Buying</h1>
+          <p>Estatease.Co simplifies property buying with expert guidance, comprehensive listings, and personalized support. Discover your dream property effortlessly with our trusted platform designed for a seamless purchasing experience</p>
+        </span>
+        <span class="agentsCard">
+          <h1>Selling</h1>
+          <p>Estatease.Co streamlines property selling with expert marketing, extensive reach, and personalized support. Maximize your property's value and sell effortlessly with our trusted and efficient platform.</p>
+        </span>
+        <span class="agentsCard">
+          <h1>Renting</h1>
+          <p>Estatease.Co makes renting easy with diverse listings, tailored solutions, and seamless support. Find the perfect rental or list your property effortlessly on our trusted platform.</p>
+        </span>
+        <span class="agentsCard">
+          <h1>Home Loan</h1>
+          <p>Estatease.Co offers home loan assistance with expert guidance, simplified processes, and trusted lenders. Secure the best rates and make your dream home a reality with ease.</p>
+        </span>
+        <span class="agentsCard">
+          <h1>and What Not-</h1>
+          <p>Estatease.Co offers property management services, handling maintenance, tenant screening, and rental collection to ensure a hassle-free experience for property owners.</p>
+        </span>
+      </div>
+    </section>
+    <section class="tools">
+      <div class="toolsHeading">
+        <h1>Advices and Tools</h1>
+      </div>
+      <div class="toolsCards">
+        <span class="toolsCard">
+          <h1>Rates and Trends</h1>
+          <p>Know all about property rates & trends in your city</p>
+        </span>
+        <span class="toolsCard">
+          <h1>EMI Calculator</h1>
+          <p>Know how much you'll have to pay to every month on your loan</p>
+        </span>
+        <span class="toolsCard">
+          <h1>Investment Hotspot</h1>
+          <p>Discover the top localities in your city for investment</p>
+        </span>
+        <span class="toolsCard">
+          <h1>Research Insights</h1>
+          <p>Get experts insights and research reports on real estate</p>
+        </span>
+      </div>
+    </section>
+    <section class="postProp">
+      <div class="propText">
+        <h1>Post Your Property for <span class="free">FREE!!</span></h1>
+        <p>List it on Estatease.Co and find genuine leads</p>
+      </div>
+        <button class="propButton" id = "postPropButton">Post Property</button>
+    </section>
+    <section class="postPropForm" id="propertyFormContainer">
+        <form
+          id="propertyListingForm"
+          action="/submit-property"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group">
+            <label for="propertyName">Property Name *</label>
+            <input
+              type="text"
+              id="propertyName"
+              name="propertyName"
+              required
+              placeholder="e.g. Luxury Flats in Noida"
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="propertyType">Property Type *</label>
+            <select id="propertyType" name="propertyType" required>
+              <option value="">Select Property Type</option>
+              <option value="apartment">Flats</option>
+              <option value="house">Duplex</option>
+              <option value="villa">Villa</option>
+              <option value="commercial">Commercial Property</option>
+            </select>
+          </div>
+  
+          <div class="form-group">
+            <label for="propertyDetails">Property Description *</label>
+            <textarea
+              id="propertyDetails"
+              name="propertyDetails"
+              rows="5"
+              required
+              placeholder="Provide detailed description of the property, including amenities, location highlights, etc."
+            ></textarea>
+          </div>
+  
+          <div class="form-group">
+            <label for="location">Location *</label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              required
+              placeholder="Full address of the property"
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="price">Price (in INR) *</label>
+            <input
+              type="number"
+              id="price"
+              name="price"
+              required
+              min="0"
+              step="500"
+              placeholder="Enter property price"
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="photos">Property Photos (Max 5 images) *</label>
+            <input
+              type="file"
+              id="photos"
+              name="photos"
+              accept="image/*"
+              multiple
+              required
+            />
+            <small>Accepted formats: JPG, PNG, WEBP (Max 10MB per image)</small>
+          </div>
+  
+          <div class="form-group">
+            <label for="contactEmail">Contact Email *</label>
+            <input
+              type="email"
+              id="contactEmail"
+              name="contactEmail"
+              required
+              placeholder="Email for property inquiries"
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="contactPhone">Contact Phone *</label>
+            <input
+              type="tel"
+              id="contactPhone"
+              name="contactPhone"
+              required
+              placeholder="Phone number for property inquiries"
+            />
+          </div>
+  
+          <button type="submit" class="submit-btn">
+            Submit Property Listing
+          </button>
+          <button type="button" id="closeFormBtn" class="close-btn">
+            Close Form
+          </button>
+        </form>
+    </section>
+    <section class="choose">
+      <div class="chooseHeading">
+        <h1>Why Choose Estatease.Co</h1>
+      </div>
+      <div class="chooseCards">
+        <span class="chooseCard">
+          <h1>Over 6 Lac Properties</h1>
+          <p>8000+ properties added everyday</p>
+        </span>
+        <span class="chooseCard">
+          <h1>Verified by our team</h1>
+          <p>Photos/Videos are verified on-site by our team</p>
+        </span>
+        <span class="chooseCard">
+          <h1>Large user base</h1>
+          <p>High active user count and higher engagement</p>
+        </span>
+      </div>
+    </section>
+    <section class="customers">
+      <div class="customersHeading">
+        <h1>What Our Customers Have To Say</h1>
+        <p>See More>>></p>
+      </div>
+      <div class="customersCards">
+        <span class="customersCard">
+          <section class="custName">
+            <img src="media/Profile4.jpg" alt="">
+            <h1>Kartik Goradia</h1> 
+          </section>
+          <section class="custRev">
+            <p>"Estatease.Co made buying our dream home a breeze! Exceptional support and transparency throughout the process. Highly recommend!"</p>
+          </section>
+        </span>
+        <span class="customersCard">
+          <section class="custName">
+            <img src="media/Profile1.jpg" alt="">
+            <h1>Prashnat Hegde</h1> 
+          </section>
+          <section class="custRev">
+            <p>"The renovation services transformed my office beautifully. Great craftsmanship and timely delivery. Truly impressed!"</p>
+          </section>
+        </span>
+        <span class="customersCard">
+          <section class="custName">
+            <img src="media/Profile2.jpg" alt="">
+            <h1>Divya Agarwal</h1> 
+          </section>
+          <section class="custRev">
+            <p>"Renting my property was effortless with Estatease.Co. They handled everything professionally and found reliable tenants quickly."</p>
+          </section>
+        </span>
+        <span class="customersCard">
+          <section class="custName">
+            <img src="media/Profile3.jpg" alt="">
+            <h1>Hiten Java</h1> 
+          </section>
+          <section class="custRev">
+            <p>"Their home loan assistance was a lifesaver. Simplified the process and got me the best rates. Thank you, Estatease.Co!"</p>
+          </section>
+        </span>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="colf1">
+        <div class="colHeading">
+          <h1 class="estateF">Estatease.Co</h1>
+        </div>
+        <div class="colContent">
+          <p>Estatease.Co is your trusted partner for seamless real estate solutions. Whether you're buying, selling, or managing properties, we offer innovative tools and expert guidance to make every transaction effortless.</p>
+        </div>
+        <div class="colContact">
+          <p>address: Worli, Mumbai </p>
+          <p>email: support@estatease.co</p>
+          <p>phone: 8308620051</p>
+        </div>
+      </div>
+      <div class="colf2">
+        <div class="colHeading">
+          <h1 class="footerH">Company</h1>
+        </div>
+        <div class="colList">
+          <p>About</p>
+          <p>Locations</p>
+          <p>FAQ</p>
+          <p>Contact Us</p>
+        </div>   
+      </div>
+      <div class="colf3">
+        <div class="colHeading">
+          <h1 class="footerH">Services</h1>
+        </div>
+        <div class="colList">
+          <p>Rent/Buy/Renovations</p>
+          <p>Builders</p>
+          <p>Architects</p>
+          <p>Agents</p>
+          <p>Post Property</p>
+        </div>
+      </div>
+    </footer>
+      </div>
+    </section>
+
+    <script src="indexScript.js"></script>
+    <script src="responsiveScript.js"></script>
+  </body>
+</html>

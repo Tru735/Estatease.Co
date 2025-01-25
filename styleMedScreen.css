@@ -1,0 +1,49 @@
+/* Proportional Card Scaling */
+@media screen and (max-width: 1000px) {
+  /* Tablet Scaling: Reduce to ~80% of original size */
+  .post,
+  .servicesCard,
+  .agentsCard,
+  .toolsCard,
+  .customersCard,
+  .chooseCard {
+    width: calc(25rem * 0.8); /* Original width * 0.8 */
+    height: calc(23.75rem * 0.8); /* Original height * 0.8 */
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+  }
+
+  .burgerMenu {
+    display: none;
+  }
+
+  /* Typography and content scaling */
+  .post h1 {
+    font-size: calc(1.5rem * 0.8);
+  }
+  .content p {
+    font-size: calc(0.9rem * 0.8);
+  }
+
+  .post,
+  .servicesCard,
+  .agentsCard,
+  .toolsCard,
+  .chooseCard,
+  .customersCard,
+  .postProp,
+  .postPropForm {
+    height: fit-content;
+  }
+
+  .post {
+    height: auto;
+  }
+  .customersCard:hover {
+    width: 20rem;
+  }
+
+  .colf1 {
+    display: none;
+  }
+}

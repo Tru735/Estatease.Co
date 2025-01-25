@@ -1,0 +1,169 @@
+@media screen and (max-width: 600px) {
+  /* Mobile Scaling: Reduce to ~60% of original size */
+  .post,
+  .servicesCard,
+  .agentsCard,
+  .toolsCard,
+  .customersCard,
+  .chooseCard {
+    width: calc(25rem * 0.6);
+    height: calc(23.75rem * 0.6);
+    transform: scale(0.6);
+    transition: all 0.3s ease;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .estate {
+    font-size: 24px;
+  }
+
+  .clicks {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    outline: none;
+    border: none;
+    transition-duration: 0.8s;
+    background-color: rgb(240, 187, 120);
+  }
+
+  .menuClass {
+    display: flex;
+    background-color: rgb(240, 187, 120);
+  }
+
+  .dropdownList {
+    list-style: none;
+  }
+
+  .dropdownMenu > li:hover {
+    color: rgb(255, 240, 220);
+    transition-duration: 0.8s;
+  }
+
+  .dropdownMenu {
+    position: absolute;
+    line-height: 3vh;
+    list-style: none;
+    background-color: rgb(240, 187, 120);
+    border: 2px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1vh;
+    right: 1vw;
+    width: fit-content;
+    height: fit-content;
+    display: none;
+    flex-direction: column;
+    transition-duration: 0.8s;
+  }
+
+  .closeDropdown {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+  }
+
+  .closeDropdown:hover {
+    color: rgb(255, 240, 220);
+    transition-duration: 0.8s;
+  }
+
+  .menuImg:hover {
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.8s;
+  }
+
+  .propertiesHeading h1,
+  .servicesHeading h1,
+  .agentsHeading h1,
+  .toolsHeading h1,
+  .customersHeading h1 {
+    font-size: 20px;
+  }
+
+  .post h1,
+  .servicesCard h1,
+  .agentsCard h1,
+  .toolsCard h1 {
+    font-size: 20px;
+  }
+
+  .post,
+  .servicesCard,
+  .agentsCard,
+  .toolsCard,
+  .chooseCard,
+  .customersCard,
+  .postProp,
+  .postPropForm {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .customersCard:hover {
+    width: 100vw;
+  }
+
+  .colf1 {
+    display: none;
+  }
+
+  .content p {
+    font-size: 12px;
+  }
+
+  .clicks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .listClicks {
+    margin: 5px 0;
+  }
+
+  .postButton,
+  .propButton,
+  .submit-btn,
+  .close-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .post {
+    height: auto;
+  }
+
+  #propertyFormContainer {
+    margin: 50px 5vw;
+    padding: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .postProp {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  .propText {
+    margin-bottom: 15px;
+  }
+}
+
+/* Responsive Image and Media */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
